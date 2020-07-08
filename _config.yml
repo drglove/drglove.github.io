@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.drglove.ca" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "drglove/drglove.github.io"
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 github: [metadata]
 
 # Build settings

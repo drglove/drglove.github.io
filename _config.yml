@@ -18,15 +18,15 @@ email: nick.t.lange@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog about programming, ice cream, and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: drglove
-github_username:  drglove
+url: "https://blog.drglove.ca" # the base hostname & protocol for your site, e.g. http://example.com
+repository: "drglove/drglove.github.io"
+github: [metadata]
 
 # Build settings
 markdown: kramdown
-theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.19.3"
 plugins:
-  - jekyll-feed
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

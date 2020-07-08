@@ -14,12 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Nick Lange
-email: nick.t.lange@gmail.com
+email: 
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog about programming, ice cream, and other stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.drglove.ca" # the base hostname & protocol for your site, e.g. http://example.com
 repository: "drglove/drglove.github.io"
+minimal_mistakes_skin: default
 github: [metadata]
 
 # Build settings
@@ -27,6 +28,43 @@ markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.19.3"
 plugins:
   - jekyll-include-cache
+
+author:
+  name: "Nick Lange"
+  location: "BC, Canada"
+  bio: "Software developer working at Metalhead Software"
+  avatar: "/assets/images/bio-pic.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nick.t.lange@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/drglove"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/drglove"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/drglove"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/drglove"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

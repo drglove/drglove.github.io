@@ -72,6 +72,7 @@ defaults:
       read_time: true
       share: true
       related: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
